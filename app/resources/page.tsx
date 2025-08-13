@@ -21,7 +21,6 @@ import {
   Star,
   ExternalLink,
 } from "lucide-react"
-import Link from "next/link"
 
 export default function ResourceLibrary() {
   const [searchTerm, setSearchTerm] = useState("")
@@ -408,7 +407,7 @@ export default function ResourceLibrary() {
         <section className="mt-12">
           <Card className="bg-[#0065bd] text-white">
             <CardContent className="p-8 text-center">
-              <h3 className="text-2xl font-bold mb-4">Can't find what you're looking for?</h3>
+              <h3 className="text-2xl font-bold mb-4">Can&#39;t find what you&#39;re looking for?</h3>
               <p className="text-lg mb-6 opacity-90">
                 Let us know what resources would be helpful for your cyber security needs
               </p>

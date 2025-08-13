@@ -377,7 +377,7 @@ export default function ReportIncident() {
                     <div className="flex items-start space-x-2">
                       <Checkbox id="consent" />
                       <Label htmlFor="consent" className="text-sm">
-                        I consent to SC3 processing this information to investigate the incident and improve Scotland's
+                        I consent to SC3 processing this information to investigate the incident and improve Scotland&#39;s
                         cyber security. I understand this may be shared with relevant authorities.
                       </Label>
                     </div>
@@ -447,7 +447,7 @@ export default function ReportIncident() {
                     </div>
                     <div>
                       <p className="font-medium">Immediate Acknowledgment</p>
-                      <p className="text-gray-600">You'll receive a confirmation email with reference number</p>
+                      <p className="text-gray-600">You&#39;ll receive a confirmation email with reference number</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -465,7 +465,7 @@ export default function ReportIncident() {
                     </div>
                     <div>
                       <p className="font-medium">Response & Guidance</p>
-                      <p className="text-gray-600">We'll provide guidance and coordinate with relevant authorities</p>
+                      <p className="text-gray-600">We&#39;ll provide guidance and coordinate with relevant authorities</p>
                     </div>
                   </div>
                 </div>

@@ -119,11 +119,27 @@ export default function CyberExercisingPage() {
 				title="Cyber Incident? "
 				description={
 					<>
-						Report cyber security incidents or vulnerabilities to SC3 for coordinated response and support.
+						Report cyber security incidents or vulnerabilities to
+						SC3 for coordinated response and support.
 					</>
 				}
 				descriptionClassName="text-green-800"
 			/>
+
+			{/* Breadcrumb */}
+			<div className="bg-gray-50 border-b">
+				<div className="container mx-auto px-4 py-3">
+					<nav className="text-sm text-gray-600">
+						<Link href="/" className="hover:underline">
+							Home
+						</Link>
+						<span className="mx-2">›</span>
+						<span className="text-gray-900">
+							CyberExercising
+						</span>
+					</nav>
+				</div>
+			</div>
 
 			<main>
 				{/* Hero Section */}
@@ -289,8 +305,8 @@ export default function CyberExercisingPage() {
 							</h2>
 							<p className="text-lg text-gray-600 max-w-2xl mx-auto">
 								We offer different types of tabletop exercises
-								tailored to your organisation&#39;s needs and the
-								seniority of participants
+								tailored to your organisation&#39;s needs and
+								the seniority of participants
 							</p>
 						</div>
 
@@ -467,7 +483,8 @@ export default function CyberExercisingPage() {
 							<p className="text-xl mb-8 opacity-90">
 								Contact SC3 to discuss your exercise
 								requirements and schedule a strategic tabletop
-								exercise tailored to your organisation&#39;s needs.
+								exercise tailored to your organisation&#39;s
+								needs.
 							</p>
 							<div className="flex flex-col sm:flex-row gap-4 justify-center">
 								<Button

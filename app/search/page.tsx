@@ -262,7 +262,7 @@ export default function SearchResults() {
             {searchQuery && (
               <>
                 <span className="mx-2">›</span>
-                <span className="text-gray-900">"{searchQuery}"</span>
+                <span className="text-gray-900">&#34;{searchQuery}&#34;</span>
               </>
             )}
           </nav>

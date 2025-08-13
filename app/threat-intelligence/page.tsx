@@ -208,7 +208,7 @@ export default function ThreatIntelligencePage() {
 							</h2>
 							<p className="text-lg text-gray-600 max-w-2xl mx-auto">
 								Comprehensive threat intelligence capabilities
-								designed to enhance your organisation's security
+								designed to enhance your organisation&#39;s security
 								posture
 							</p>
 						</div>
@@ -335,7 +335,7 @@ export default function ThreatIntelligencePage() {
 							<p className="text-lg text-gray-600 max-w-2xl mx-auto">
 								Clear guidance on accessing SC3 threat
 								intelligence services based on your
-								organisation's needs
+								organisation&#39;s needs
 							</p>
 						</div>
 
@@ -463,7 +463,7 @@ export default function ThreatIntelligencePage() {
 											</h3>
 											<p className="text-blue-700 mb-4">
 												Contact SC3 to discuss your
-												organisation's threat
+												organisation&#39;s threat
 												intelligence requirements
 											</p>
 											<Button className="bg-blue-600 hover:bg-blue-700">

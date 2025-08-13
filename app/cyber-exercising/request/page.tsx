@@ -70,9 +70,9 @@ export default function ExerciseRequestPage() {
                 </p>
                 <ul className="text-sm text-green-700 space-y-2 text-left max-w-md mx-auto">
                   <li>• SC3 team will review your initial requirements</li>
-                  <li>• We'll schedule a detailed discussion about your objectives</li>
-                  <li>• Together we'll design an exercise tailored to your needs</li>
-                  <li>• We'll coordinate the exercise delivery and follow-up</li>
+                  <li>• We&#39;ll schedule a detailed discussion about your objectives</li>
+                  <li>• Together we&#39;ll design an exercise tailored to your needs</li>
+                  <li>• We&#39;ll coordinate the exercise delivery and follow-up</li>
                 </ul>
                 <div className="pt-6">
                   <Button asChild>
@@ -98,7 +98,7 @@ export default function ExerciseRequestPage() {
           </Link>
           <h1 className="text-3xl font-bold text-gray-900 mb-4">Request a Cyber Exercise</h1>
           <p className="text-lg text-gray-600 max-w-3xl">
-            Complete this initial enquiry form to help us understand your cyber exercise requirements. Our team will follow up with a detailed discussion to design an exercise tailored to your organisation's needs.
+            Complete this initial enquiry form to help us understand your cyber exercise requirements. Our team will follow up with a detailed discussion to design an exercise tailored to your organisation&#39;s needs.
           </p>
         </div>
 

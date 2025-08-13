@@ -103,6 +103,21 @@ export default function IncidentCoordinationPage() {
 				}
 			/>
 
+			{/* Breadcrumb */}
+			<div className="bg-gray-50 border-b">
+				<div className="container mx-auto px-4 py-3">
+					<nav className="text-sm text-gray-600">
+						<Link href="/" className="hover:underline">
+							Home
+						</Link>
+						<span className="mx-2">›</span>
+						<span className="text-gray-900">
+							Incident Coordination
+						</span>
+					</nav>
+				</div>
+			</div>
+
 			<main>
 				{/* Hero Section */}
 				<section className="bg-gradient-to-r from-red-600 to-red-800 text-white py-20">
