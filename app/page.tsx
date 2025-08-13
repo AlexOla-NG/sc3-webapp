@@ -6,7 +6,6 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
-import { Alert, AlertDescription } from "@/components/ui/alert";
 import {
 	Shield,
 	Eye,
@@ -132,16 +131,6 @@ export default function HomePage() {
 
 	return (
 		<div className="min-h-screen bg-white">
-			{/* Emergency Contact Banner */}
-			<Alert className="border-l-4 border-l-red-500 bg-red-50 rounded-none">
-				<AlertTriangle className="h-4 w-4 text-red-600" />
-				<AlertDescription className="text-red-800">
-					<strong>Cyber Incident?</strong> Call our 24/7 helpline:{" "}
-					<strong>0300 244 9700</strong> or email{" "}
-					<strong>SC3@gov.scot</strong>
-				</AlertDescription>
-			</Alert>
-
 			<main>
 				{/* Hero Section - Centralized like v13 */}
 				<section className="bg-gradient-to-r from-[#0065bd] to-[#004494] text-white py-20">
@@ -443,7 +432,7 @@ export default function HomePage() {
 								Our Impact
 							</h2>
 							<p className="text-xl opacity-90">
-								Supporting Scotland's cyber security resilience
+								Supporting Scotland&#39;s cyber security resilience
 							</p>
 						</div>
 
@@ -470,7 +459,7 @@ export default function HomePage() {
 					<div className="container mx-auto px-4">
 						<div className="max-w-4xl mx-auto text-center">
 							<h2 className="text-3xl font-bold text-gray-900 mb-6">
-								Supporting Scotland's Public Sector
+								Supporting Scotland&#39;s Public Sector
 							</h2>
 							<p className="text-lg text-gray-600 mb-8">
 								While SC3 supports all Scottish organisations,
